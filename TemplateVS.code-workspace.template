@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"editor.formatOnSave": true,
+		"cmake.cmakePath": "cmake",
+		"cortex-debug.openocdPath": "openocd",
+		"cmake.configureSettings": {
+			"TOOLCHAIN_PREFIX": "Path to Toolchain",
+			"STM32Cube_DIR": "Path to CubeMX install directory"
+		}
+	}
+}

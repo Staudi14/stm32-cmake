@@ -1,0 +1,15 @@
+{
+    "C_Cpp.configurationWarnings": "Disabled",
+    "cmake.configureOnOpen": true,
+    "cmake.installPrefix": "",
+    "cmake.generator": "Ninja",
+    "cmake.configureSettings": {
+        "STM32_CHIP": "STM32F446RE",
+        "CMAKE_BUILD_TYPE": "Debug",
+        "CMAKE_TOOLCHAIN_FILE": "${workspaceFolder}/cmake/gcc_stm32.cmake",
+        // Absolutly do not use ${workspaceFolder} here in a Windows install
+        // as the path is seperated by a \ which will lead to an error
+        "CMAKE_MODULE_PATH": "./cmake",
+        "CMAKE_MAKE_PROGRAM": "ninja"
+    }
+}
