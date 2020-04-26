@@ -8,6 +8,9 @@
 		"editor.formatOnSave": true,
 		"cmake.cmakePath": "cmake",
 		"cortex-debug.openocdPath": "openocd",
+		"C_Cpp.default.includePath": [
+			"path/to/CubeMX/install/directory/**"
+		],
 		"cmake.configureSettings": {
 			"TOOLCHAIN_PREFIX": "Path to Toolchain",
 			"STM32Cube_DIR": "Path to CubeMX install directory"
